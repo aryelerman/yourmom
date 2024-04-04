@@ -10,6 +10,25 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+       
+    <form>
+        <div>Aprēķināt cik daudz informāciju var lejuplādēt<input type="text" name="sk1">sekundes, ja interneta ātrums ir 25 Mbps.</div>
+        <div>
+            <input value="X" name="reiz" onclick="rez.value=sk1.value*sk2.value" type="button">
+        </div>
+         <div>
+            <input value="+" name="reiz" onclick="rez.value=sk1.value-(-sk2.value)" type="button">
+        </div>
+         <div>
+            <input value="-" name="reiz" onclick="rez.value=sk1.value-sk2.value" type="button">
+        </div>
+         <div>
+            <input value="/" name="reiz" onclick="rez.value=sk1.value/sk2.value" type="button">
+        </div>
+        <div>2.skaitlis<input type="text" name="sk2"> </div>
+        <hr>
+        <div><p>Atbilde:</p>
+            <p><input name="rez"></p></div>
+    </form>
     </body>
 </html>
